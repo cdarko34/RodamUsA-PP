@@ -1,11 +1,7 @@
-var membresia = 200;
+let codigo = prompt("Ingresa tu código de descuento");
 
-function descuento(membresia , params) {
-    
-}
-
-const codigo = prompt("Ingresa tu código de descuento");
-
-if(codigo = "DESCUENTO50"){
-    console.log("Cuentas con $50 de descuento tu total es" + membresia -50);
+if (codigo == "DESCUENTO50"){
+    alert("Cuentas con $50 de descuento en tu membresía");
+} else {
+    alert("Ingresa un código válido😔");
 }
