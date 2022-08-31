@@ -1,0 +1,19 @@
+label{
+    color: #D90429;
+}
+
+.fondo {
+    background: #D90429;
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .fondo {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
