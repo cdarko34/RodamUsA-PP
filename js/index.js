@@ -1,7 +1,7 @@
 let input = prompt("Ingresa tu código de descuento");
 
 
-function codepromo() {
+var codepromo = function() {
     while (input != "DESCUENTO50") {
         alert("El código " + input + " no es válido");
         input = prompt("Ingresa un código válido");
