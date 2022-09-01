@@ -1,12 +1,14 @@
-let codigo = prompt("Ingresa tu código de descuento");
+let input = prompt("Ingresa tu código de descuento");
 
-if (codigo == "DESCUENTO50"){
-    alert("Cuentas con $50 de descuento en tu membresía");
-    console.log("Cuentas con $50 de descuento en tu membresía");
-} else {
-    console.log("Ingresa un código válido😔");
+
+function codepromo() {
+    while (input != "DESCUENTO50") {
+        alert("El código " + input + " no es válido");
+        input = prompt("Ingresa un código válido");
+    }
+    if (input = "DESCUENTO50") {  
+        alert("Tienes $50 de descuento en tu membresía.")
+    }
 }
 
-do {
-    codigo = prompt("Ingresa tu código de descuento");
-} while(codigo !== "DESCUENTO50");
+codepromo();
